@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="24dp"
+        android:text="Máy tính"
+        android:textColor="#FF0000"
+        android:textSize="40dp" />
+
+    <EditText
+        android:id="@+id/editextsothu1"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="119dp"
+        android:ems="10"
+        android:hint="Nhập số thứ 1"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editextsothu2"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="188dp"
+        android:ems="10"
+        android:hint="nhập số thứ 2"
+        android:inputType="textPersonName" />
+
+
+    <Button
+        android:id="@+id/buttoncong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="300dp"
+        android:layout_toStartOf="@+id/buttonnhan"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/buttontru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="208dp"
+        android:layout_toStartOf="@+id/buttonchia"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/buttonnhan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="300dp"
+        android:text="*" />
+
+    <Button
+        android:id="@+id/buttonchia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="208dp"
+        android:text="/" />
+
+    <TextView
+        android:id="@+id/textviewketqua"
+        android:layout_width="342dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editextsothu2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="31dp"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#FF0000"
+        android:textSize="40dp" />
+</RelativeLayout>
